@@ -1,0 +1,92 @@
+
+ body{
+     
+    background-image: url(imagenes/fondo5.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}  
+
+
+h1{
+    display: flex;
+    justify-content: center;
+    font-family: "Lucida console", monospace;
+}
+    
+.padre{
+    padding: 5px;
+    display:  flex;
+    justify-content: space-around;
+    margin:  0 400px;
+}
+.info{
+    /* position: static; */
+    background: maroon;
+    width: auto;
+    height: 20%;
+    text-align: center;
+    vertical-align: middle;
+    padding: 30px;
+    display: inline-block;
+   
+    
+}
+.foto{
+    
+  height: 200px;
+  width: 200px;
+    
+}
+
+
+
+
+.navmen{
+    display: inline-block;
+    background: #FF2626;
+    color: black;
+    padding: 10px 30px;
+    text-decoration: none;
+}
+.navmen:hover{
+    background: #FFF600;
+    color: white;
+}
+
+footer{
+    
+    padding: 5px;
+    display: flex;
+    justify-content: space-around;
+     margin:  0 400px;
+     clear: both;
+    
+}
+
+.preguntas{
+    text-align: center;
+    
+}
+
+nav{
+   
+    display: block;
+    justify-content: center;
+    background: #FFE6E6;
+    
+}
+
+.texto{
+    
+  padding: 30px;
+  width: auto;
+  height: auto;
+    text-align: justify;
+}
+.explicacion{
+    border: 1px solid black;
+  padding: 10px;
+  width: auto;
+  height: auto;
+  text-align: center;
+}
